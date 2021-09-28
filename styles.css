@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.header-top{
+    background-color: yellow;
+    color:black;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.description{
+    text-align: center;
+}
+
+
+#app-display1{
+    margin: auto;
+    text-align: center;
+}
+
+.change-table{
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.all-elements{
+    display: block;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+#calculate{
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+#change-sec{
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+/* .heading{
+    text-align: center;
+} */

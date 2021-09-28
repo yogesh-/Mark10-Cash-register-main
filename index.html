@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header-top">
+        <h1>Cash Register App</h1>
+    </header>
+
+    <div class="container">
+
+    <div id="app-display1">  
+    <p class="description"><h2>Enter your total bill amount to get change with least number of currency notes</h2></p>
+
+    <label for="total-bill" class="all-elements">Total Bill Amount </label>   
+    <input id="total-bill" type="text" class="all-elements">
+    <br>
+    <button id="next-button"class="all-elements">Proceed</button>
+    
+
+    
+    <div id="next-display">
+    
+    <label for="cash-given" class="all-elements">Cash Given by customer</label>
+    <input id="cash-given" type="text" class="all-elements">
+    <br>
+        
+    <button id="calculate" class="all-elements">Calculate Change</button> 
+    <p id="error-message" class="all-elements"></p>
+
+
+    <div id="change-sec">   
+    <table class="change-table" border="1">
+        <caption>Change Table</caption>
+        <tr>
+            <th>Number of notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"> </td>
+        </tr>
+
+        <tr>
+            <td>currency</td>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+
+    </table>
+    </div>
+</div>    
+</div>
+
+</div>
+</body>
+<script src="./index.js"></script>
+</html>
