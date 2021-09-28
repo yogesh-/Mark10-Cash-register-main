@@ -44,9 +44,13 @@ body{
 
 .footer-container {
     text-align: center;
-    padding: 1.5rem;
+    padding: 0.5rem;
     background-color:yellow;
-    color: black;   
+    color: black;
+    /* width:100vw; */
+    /* position: fixed; */
+    bottom: 0px
+    
 }
 
 
