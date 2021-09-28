@@ -39,8 +39,15 @@ body{
 
 #change-sec{
     padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
+.footer-container {
+    text-align: center;
+    padding: 1.5rem;
+    background-color:yellow;
+    color: black;   
+}
 
 
 
